@@ -1,0 +1,9 @@
+//{
+//  Documentação da configuração de senha
+//  "https": //learn.microsoft.com/pt-br/aspnet/core/security/authentication/identity-configuration?view=aspnetcore-7.0#password
+//}
+
+/// Formas de utilizar o secret para nossa aplicação não ficar om a secret key visivel
+///$ dotnet user-secrets set "SymmetricSecurityKey" "passar o dado "
+/// C:\Users\lucas\AppData\Roaming\Microsoft\UserSecrets caminho da secret key
+

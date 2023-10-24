@@ -1,0 +1,14 @@
+﻿
+/// Formas de utilizar o secret para nossa aplicação não ficar om a secret key visivel
+
+Comando para criar secret a SymmetricKey
+
+$ dotnet user-secrets set "SymmetricSecurityKey" "passar o dado"
+
+Comando  para criar secret Connection String
+
+$ dotnet user-secrets set "ConnectionStrings:UsuarioConnection" "passar o dado"
+
+O caminho que ficam as secrets
+
+ C:\Users\lucas\AppData\Roaming\Microsoft\UserSecrets
